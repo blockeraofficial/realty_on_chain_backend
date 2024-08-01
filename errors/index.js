@@ -6,7 +6,7 @@ const routeNotFound = (req, res) => {
 };
 
 const welcome = (req, res, next) => {
-  return sendResponse(res, "success", 200, "Welcome To Okane Backend API");
+  return sendResponse(res, "success", 200, "Welcome To ROC Backend API");
 };
 
 const errorHandler = (error, req, res, next) => {
